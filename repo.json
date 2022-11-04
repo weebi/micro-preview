@@ -1,0 +1,7 @@
+[{
+  "Name": "micro-preview",
+  "Description": "A very simple plugin to preview markdown in a second editor pane using pandoc.",
+  "Tags": ["markdown", "pandoc", "preview"],
+  "Website": "https://github.com/weebi/micro-preview",
+}]
+
