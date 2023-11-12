@@ -6,13 +6,39 @@ A very simple plugin for the [Micro](https://github.com/zyedidia/micro) editor t
 
 Pandoc is also the only external dependency needed to run this plugin. I have not tested this with anything else than version 2.0.11 of Micro, so your mileage might vary.
 
+## Installation
+
+### Settings
+
+Add this repo as a **pluginrepos** option in the **~/.config/micro/settings.json** file (it is necessary to restart the micro after this change):
+
+```json
+{
+  "pluginrepos": [
+      "https://raw.githubusercontent.com/weebi/micro-preview/master/repo.json"
+  ]
+}
+```
+
+### Install
+
+In your micro editor press **Ctrl-e** and run command:
+
+```
+> plugin install preview
+```
+
+or run in your shell
+
+```sh
+micro -plugin install preview
+```
 
 ## Usage
 
 When installed, the plugin creates the `preview` command which splits the window vertically and opens a pane on the right side containing the converted markdown.
 
 The preview window *should* update every time you save, but can also be forcibly updated by running `preview` again.
-
 
 ## Configuration
 
