@@ -10,7 +10,7 @@ local preview_window, preview_command = nil
 
 function init()
   -- Check if pandoc exists on system, disable plugin and warn user if it's missing.
-  local _, error = shell.RunCommand("which pandoc")
+  local _, error = shell.RunCommand("pandoc -v")
   if error ~= nil then
     micro.InfoBar():Error("Pandoc not found, install it to use the Preview plugin!")
     micro.Log(fmt.Sprintf("[Preview]: %s", 'Could not find Pandoc, add it to the path or install it using a package manager.'))
