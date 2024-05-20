@@ -4,7 +4,7 @@
 
 A very simple plugin for the [Micro](https://github.com/zyedidia/micro) editor to preview markdown using [Pandoc](https://github.com/jgm/pandoc).
 
-Pandoc is also the only external dependency needed to run this plugin. I have not tested this with anything else than version 2.0.11 of Micro, so your mileage might vary.
+Pandoc is also the only external dependency needed to run this plugin. I've mainly used and tested this using the latest versions of Micro, so your mileage might vary on other versions.
 
 ## Installation
 
