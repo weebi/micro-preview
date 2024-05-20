@@ -9,7 +9,7 @@
       "Version": "1.0.0",
       "Url": "https://github.com/weebi/micro-preview/archive/1.0.0.zip",
       "Require": {
-        "micro": ">=2.0.13"
+        "micro": ">=2.0.1"
       }
     }
   ]
